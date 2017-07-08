@@ -1,0 +1,23 @@
+{
+  "name": "youtube-dedupe",
+  "version": "1.0.0",
+  "description": "Remove duplicate videos from a downloaded YouTube playlist",
+  "main": "index.js",
+  "bin": {
+    "youtube-dedupe": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brad Christensen",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
+  }
+}
